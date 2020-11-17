@@ -11,9 +11,6 @@ We have updated the code such that it is using version 0.4.1.
 
 *RDKit*  
 version 2017.09.1.
-We recommend installing rdkit through Anaconda, see e.g.
-https://anaconda.org/rdkit/rdkit:  
-`conda install -c rdkit rdkit`
 
 *Python*  
  version 3.6.6.
@@ -36,8 +33,14 @@ https://anaconda.org/rdkit/rdkit:
 
 ### Evaluation of the models
 
-using qm9 physical properties
+using qm9 physical properties <br>
 `mol_smooth_embedding/Evaluate_Model.ipynb`
 
-using rdkit descriptors
+using rdkit descriptors <br>
 `mol_smooth_embedding/Evaluate_Model_RDkit_desc.ipynb`
+
+## Abount Scripts
+
+As mentioned in our paper, The VAE architecture uses the same model as kajino's MHG-VAE (http://proceedings.mlr.press/v97/kajino19a/kajino19a.pdf). 
+The code for the MHG-VAE can be found in `mol_smooth_embedding/mhg`. And kajino's original code can be found in https://github.com/ibm-research-tokyo/graph_grammar.
+
