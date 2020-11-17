@@ -39,7 +39,7 @@ using qm9 physical properties <br>
 using rdkit descriptors <br>
 `mol_smooth_embedding/Evaluate_Model_RDkit_desc.ipynb`
 
-## Abount Scripts
+## About Scripts
 
 As mentioned in our paper, The VAE architecture uses the same model as kajino's MHG-VAE (http://proceedings.mlr.press/v97/kajino19a/kajino19a.pdf). 
 The code for the MHG-VAE can be found in `mol_smooth_embedding/mhg`. And kajino's original code can be found in https://github.com/ibm-research-tokyo/graph_grammar.
