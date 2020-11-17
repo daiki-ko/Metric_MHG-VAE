@@ -68,7 +68,7 @@ class DataPreprocessing():
         
         print("start HRG")
         #prod_rule_seq_list = hrg.learn(hg_list, logger=logger.info, max_mol=self.DataPreprocessing_params.get('max_mol', np.inf))
-        prod_rule_seq_list = hrg.learn(hg_list, logger=logger.info, max_mol=53019)
+        prod_rule_seq_list = hrg.learn(hg_list, logger=logger.info, max_mol=133802)
         print("finish HRG")
         
         print("----------------------------")
